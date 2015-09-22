@@ -1,14 +1,7 @@
 "------------ theme ---------------
 
 call plug#begin('~/.vim/plugged')
-Plug 'joshdick/onedark.vim'
-call plug#end()
-
-if (has("termguicolors"))
-	 set termguicolors
-endif
 syntax on
-colorscheme onedark
 
 "------------- mappings -----------
 
@@ -25,3 +18,4 @@ set smartindent
 set number
 set enc=utf-8
 set nowrap
+set ruler
